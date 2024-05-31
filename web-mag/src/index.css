@@ -30,6 +30,9 @@ body {
     padding: 1rem;
     background-color: rgba(0,0,0,0.4);
 }
+.form input{
+    color: #000;
+}
 
 form {
     display: flex;
@@ -40,8 +43,8 @@ form {
 }
 
 
-input[type="text"],
-input[type="password"],
+input,
+textarea,
 .form button,
 .form textarea {
   font-family: 'Nunito', sans-serif;
@@ -107,3 +110,8 @@ input[type="password"],
 section{
     margin: 5rem auto;
 }
+
+
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+  }
